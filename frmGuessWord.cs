@@ -10,7 +10,7 @@ namespace WordGuessApplication
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            StringBuilder wordGuess = new StringBuilder("computer");
+            StringBuilder wordGuess = new StringBuilder("lucky");
 
             for (int i = 0; i < wordGuess.Length; i++)
             {
@@ -20,13 +20,12 @@ namespace WordGuessApplication
                 }
                 wordGuess.Replace(wordGuess[i], '?');
             }
-
             label1.Text = wordGuess.ToString();
 
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            StringBuilder wordGuess = new StringBuilder("computer");
+            StringBuilder wordGuess = new StringBuilder("lucky");
 
             string guessInput = textBox1.Text;
 

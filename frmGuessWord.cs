@@ -38,8 +38,9 @@ namespace WordGuessApplication
             }
             else
             {
+                listBox1.Items.Add(guessInput); 
                 MessageBox.Show("Wrong guess!\nTry again.");
-                listBox1.Items.Add(guessInput);
+                
             }
         }
 

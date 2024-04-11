@@ -32,12 +32,12 @@ namespace WordGuessApplication
 
             if (wordGuess.Equals(guessInput))
             {
-                MessageBox.Show("Yay you guessed the word!");
+                MessageBox.Show("Correct guess!");
                 label1.Text = wordGuess.ToString();
             }
             else
             {
-                MessageBox.Show("Aww wrong answer. Try again.");
+                MessageBox.Show("Wrong guess!\nTry again.");
                 listBox1.Items.Add(guessInput);
             }
         }

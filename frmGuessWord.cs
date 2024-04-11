@@ -33,14 +33,12 @@ namespace WordGuessApplication
             if (wordGuess.Equals(guessInput))
             {
                 label1.Text = wordGuess.ToString();
-                MessageBox.Show("Correct guess!");
-                
+                MessageBox.Show("Correct guess!"); 
             }
             else
             {
                 listBox1.Items.Add(guessInput); 
                 MessageBox.Show("Wrong guess!\nTry again.");
-                
             }
         }
 

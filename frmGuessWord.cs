@@ -32,8 +32,9 @@ namespace WordGuessApplication
 
             if (wordGuess.Equals(guessInput))
             {
-                MessageBox.Show("Correct guess!");
                 label1.Text = wordGuess.ToString();
+                MessageBox.Show("Correct guess!");
+                
             }
             else
             {

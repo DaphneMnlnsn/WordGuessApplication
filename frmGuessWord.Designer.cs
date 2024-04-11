@@ -54,7 +54,7 @@ namespace WordGuessApplication
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(217, 61);
+            label1.Location = new Point(238, 61);
             label1.Name = "label1";
             label1.Size = new Size(82, 29);
             label1.TabIndex = 0;
@@ -86,7 +86,7 @@ namespace WordGuessApplication
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(377, 266);
+            button1.Location = new Point(392, 266);
             button1.Name = "button1";
             button1.Size = new Size(203, 53);
             button1.TabIndex = 2;
